@@ -30,13 +30,14 @@ Check the script later to make sure image names agree.
 
 ### Copy and Configure Environment
 
-Copy and edit ncar-wrf-env.sh.template to ncar-wrf-env.sh
+Remember to copy and edit ncar-wrf-env.sh.template to ncar-wrf-env.sh in the directory CloudChamber/ncar-wrf/private-registry-demo
 
 ## Usage
 
 ```
 git clone https://github.com/federatedcloud/CloudChamber.git
-cd CloudChamber/private-registry-demo
+cd CloudChamber/ncar-wrf/private-registry-demo
+vi ncar-wrf-env.sh.template
 source ncar-wrf-env.sh
 ./run-ncar-wrf-private-registry-demo.sh
 ```
