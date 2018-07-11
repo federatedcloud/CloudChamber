@@ -1,0 +1,2 @@
+export PRIVATE_REGISTRY_DOMAIN="registry.example.com:443"
+export DOCKER_USERNAME="registry_username"
